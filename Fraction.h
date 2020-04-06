@@ -17,7 +17,7 @@ template<typename T> class Fraction {
     friend std::ostream& operator<< <T>(std::ostream& os, const Fraction<T>& fra);
     friend void operator== <T>(const Fraction<T>& lhs, const Fraction<T>& rhs);
     friend Fraction<T> operator+(Fraction<T>& lhs, const Fraction<T>& rhs);
-    friend Fraction<T> operator*(const Fraction<T>& lhs, const Fraction<T>& rhs);
+    friend Fraction<T> operator*(Fraction<T>& lhs, const Fraction<T>& rhs);
 private:
     T nominator;
     T denominator;
@@ -28,8 +28,7 @@ public:
     bool identity(Fraction<T> fraction);
     Fraction<T> operator+=(const Fraction<T>& rhs);
     Fraction<T> operator*=(const Fraction<T>& rhs);
-
-
+    operator float() const;
 //    template <typename U> Fraction<U> convert(Fraction<T> fraction);
 //    template<typename T> Fraction<U> operator float(Fraction<T>);
 };
