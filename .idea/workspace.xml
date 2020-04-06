@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="INF2_Labo4" targetName="INF2_Labo4" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="945c6823-3a79-47df-ae2b-b872e5507dd8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1ZwjaCvs0qx2gxOsf7lwYbnSFfa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="INF2_Labo4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="INF2_Labo4" TARGET_NAME="INF2_Labo4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="INF2_Labo4" RUN_TARGET_NAME="INF2_Labo4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="945c6823-3a79-47df-ae2b-b872e5507dd8" name="Default Changelist" comment="" />
+      <created>1585757111811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585757111811</updated>
+      <workItem from="1585757114165" duration="4658000" />
+      <workItem from="1585839262362" duration="41000" />
+      <workItem from="1586162084423" duration="8950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="18" key="#Inspections" timestamp="1585759002774">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="18" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1585759002774" />
+    <state x="233" y="18" key="#New_File_Extensions" timestamp="1585759263399">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="18" key="#New_File_Extensions/0.0.1280.720@0.0.1280.720" timestamp="1585759263399" />
+    <state x="414" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1586164130689">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="414" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1586164130689" />
+    <state x="420" y="101" key="FileChooserDialogImpl" timestamp="1585839293712">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="420" y="101" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1585839293712" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1586164603939">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1586164603939" />
+  </component>
+</project>
