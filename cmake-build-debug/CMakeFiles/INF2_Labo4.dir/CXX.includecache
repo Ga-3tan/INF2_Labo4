@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gaeta/Documents/HEIGVD/INF2/labos/INF2_Labo4/Fraction.h
+iostream
+-
+FractionImpl.h
+C:/Users/gaeta/Documents/HEIGVD/INF2/labos/INF2_Labo4/FractionImpl.h
+
+C:/Users/gaeta/Documents/HEIGVD/INF2/labos/INF2_Labo4/FractionImpl.h
+Fraction.h
+C:/Users/gaeta/Documents/HEIGVD/INF2/labos/INF2_Labo4/Fraction.h
+
+C:/Users/gaeta/Documents/HEIGVD/INF2/labos/INF2_Labo4/main.cpp
+iostream
+-
+Fraction.h
+C:/Users/gaeta/Documents/HEIGVD/INF2/labos/INF2_Labo4/Fraction.h
+

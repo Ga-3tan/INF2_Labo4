@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fraction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fraction.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FractionImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/FractionImpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,9 @@
       <updated>1585757111811</updated>
       <workItem from="1585757114165" duration="4658000" />
       <workItem from="1585839262362" duration="41000" />
-      <workItem from="1586162084423" duration="12863000" />
+      <workItem from="1586162084423" duration="13167000" />
+      <workItem from="1586525938033" duration="755000" />
+      <workItem from="1586526907780" duration="4212000" />
     </task>
     <servers />
   </component>
@@ -68,10 +71,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="18" key="#Inspections" timestamp="1585759002774">
+    <state x="233" y="18" key="#Inspections" timestamp="1586529853353">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="18" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1585759002774" />
+    <state x="233" y="18" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1586529853353" />
     <state x="233" y="18" key="#New_File_Extensions" timestamp="1585759263399">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -84,6 +87,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="420" y="101" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1585839293712" />
+    <state width="1281" height="175" key="GridCell.Tab.0.bottom" timestamp="1586530900269">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586530900269" />
+    <state width="1281" height="175" key="GridCell.Tab.0.center" timestamp="1586530900269">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586530900269" />
+    <state width="1281" height="175" key="GridCell.Tab.0.left" timestamp="1586530900268">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586530900268" />
+    <state width="1281" height="175" key="GridCell.Tab.0.right" timestamp="1586530900269">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1281" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586530900269" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1586164603939">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
