@@ -7,35 +7,41 @@
 
 #include "Fraction.h"
 
-template <typename T>
-Fraction<T> Fraction<T>::simplify(Fraction<T> fraction) {
-    T A = fraction.nominator;
-    T B = fraction.denominator;
-    T R = A%B;
+template<typename T>
+Fraction<T> Fraction<T>::simplify() {
+    T A = this->nominator;
+    T B = this->denominator;
+    T R = A % B;
 
     // algoritme pour la simplification
     while (R != 0) {
         A = B;
         B = R;
-        R = A%B;
+        R = A % B;
     }
 
-    return Fraction<T>(A, B);
+    return Fraction<T>(this->nominator / B, this->denominator / B);
 }
 
-template <typename T> bool Fraction<T>::identity(Fraction<T> fraction) {
+template<typename T>
+bool Fraction<T>::identity(Fraction<T> fraction) {
     return this->nominator == fraction.nominator && this->denominator == fraction.denominator;
 }
 
-template <typename T> std::ostream& operator<<(std::ostream& os, const Fraction<T>& fra) {
+template<typename T>
+bool Fraction<T>::operator==(Fraction<T> &rhs) {
+    Fraction A = this->simplify();
+    Fraction B = rhs.simplify();
+    return A.nominator == B.nominator && A.denominator == B.denominator;
+}
+
+template<typename T>
+std::ostream &operator<<(std::ostream &os, const Fraction<T> &fra) {
     return os << fra.nominator << "/" << fra.denominator;
 }
 
-template<typename T> Fraction<T>::operator float() const {
-    return float(this->nominator) / float(this->denominator);
-}
-
-template <typename T> Fraction<T> Fraction<T>::operator+=(const Fraction<T> &rhs) {
+template<typename T>
+Fraction<T> Fraction<T>::operator+=(const Fraction<T> &rhs) {
     auto nomi1 = this->nominator;
     auto deno1 = this->denominator;
     auto nomi2 = rhs.nominator;
@@ -55,18 +61,31 @@ template <typename T> Fraction<T> Fraction<T>::operator+=(const Fraction<T> &rhs
 
     return *this;
 }
-template <typename T> Fraction<T> operator+(Fraction<T> &lhs, const Fraction<T> &rhs) {
+
+template<typename T>
+Fraction<T> operator+(Fraction<T> lhs, const Fraction<T> &rhs) {
     lhs += rhs;
     return lhs;
 }
-template <typename T> Fraction<T> Fraction<T>::operator*=(const Fraction<T>& rhs) {
+
+template<typename T>
+Fraction<T> Fraction<T>::operator*=(const Fraction<T> &rhs) {
     this->nominator *= rhs.nominator;
     this->denominator *= rhs.denominator;
     return *this;
 }
-template <typename T> Fraction<T> operator*(Fraction<T> &lhs, const Fraction<T> &rhs) {
+
+template<typename T>
+Fraction<T> operator*(Fraction<T> lhs, const Fraction<T> &rhs) {
     lhs *= rhs;
     return lhs;
 }
+
+template<typename T>
+template<typename U>
+Fraction<T>::operator U() {
+    return U(this->nominator) / U(this->denominator);
+}
+
 
 #endif //INF2_LABO4_FRACTIONIMPL_H
